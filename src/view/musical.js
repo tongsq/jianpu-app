@@ -45,7 +45,7 @@ class MusicalScreen extends Component{
         title: '节拍器'  
     }
     render(){
-        let row = [['5',[3,5],"&#xe603;",'-'],[],[]];
+        let row = [['5',[3,5],'\ue603','-'],[],[]];
         let partComponents = [];
         partComponents = row.map((item,index)=>{return (<PartComponent value={item} key={index}/>);});
         console.log(partComponents);
